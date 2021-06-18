@@ -1,10 +1,12 @@
 import React from 'react'
+import {Container} from 'react-bootstrap'
+import './landing.css'
 
 function Landing() {
     return (
-        <div>
-            Wild And Wonderful
-        </div>
+       <Container className="landing">
+        <div className="heading">Shop Our Sale</div>
+       </Container>
     )
 }
 

@@ -1,0 +1,9 @@
+.landing {
+    background-image: url("./oceanBackground.jpg"); 
+    height: 50vh;
+}
+.heading {
+    color: whitesmoke;
+    font-size: 10vh;
+    padding:100px;
+}
