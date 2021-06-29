@@ -16,7 +16,7 @@ function NavBar() {
         <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.3">One-Piece</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.3">All</NavDropdown.Item>
+        <NavDropdown.Item href="/Swim-All">All</NavDropdown.Item>
       </NavDropdown>
       <NavDropdown title="Accessories" id="basic-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Totes</NavDropdown.Item>
