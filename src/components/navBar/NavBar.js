@@ -5,7 +5,7 @@ function NavBar() {
     return (
         <Container className="navbar">
         <Navbar bg="light" expand="lg">
-  <Navbar.Brand href="/Tops">Wild and Wonderful</Navbar.Brand>
+  <Navbar.Brand href="/">Wild and Wonderful</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
@@ -24,6 +24,8 @@ function NavBar() {
         <NavDropdown.Item href="#action/3.2">Sandals</NavDropdown.Item>
         <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.3">Wraps</NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item href="#action/3.4">All</NavDropdown.Item>
         <NavDropdown.Divider />
       </NavDropdown>
       <NavDropdown title="Sale" id="basic-nav-dropdown">
